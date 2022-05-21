@@ -92,3 +92,37 @@ h3 {
     width: 350px;
 }
 
+/*Below is the third section*/
+
+.third-section {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 50%;
+    padding: 8px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 20px;
+    align-self: flex-end;
+    margin-right: 5%;
+}
+
