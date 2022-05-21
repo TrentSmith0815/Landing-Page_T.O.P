@@ -53,9 +53,16 @@ button {
     color: #e5e7eb;
     padding: 8px 28px;
     font-weight: 700;
-    border: none;
+    border: transparent;
     text-align: center;
     border-radius: 8px;
+    transition-duration: 0.4s;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
 }
 
 img {
@@ -125,4 +132,54 @@ h3 {
     align-self: flex-end;
     margin-right: 5%;
 }
+
+/* Fourth section styling below */
+
+.fourth-section {
+    padding: 100px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    border-radius: 8px;
+    padding: 40px 100px;
+    flex: 1;
+}
+
+.action-text {
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+}
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 18px;;
+}
+
+.action-container-right button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    padding: 8px 28px;
+    font-weight: 700;
+    font-size: 20px;
+    transition-duration: 0.4s
+}
+
+.action-container-right button:hover {
+    background-color: white;
+    color: #3882f6
+}
+
+
 
