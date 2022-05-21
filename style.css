@@ -65,4 +65,30 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* Below is the second section */
+
+.second-section {
+    text-align: center;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 16px;
+}
+
+.box {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+    flex-direction: column;
+    width: 350px;
+}
 
