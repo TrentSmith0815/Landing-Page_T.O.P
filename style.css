@@ -89,14 +89,17 @@ h3 {
     justify-content: center;
     gap: 32px;
     padding: 16px;
+    flex-wrap: wrap;
 }
 
 .box {
-    display: flex;
     gap: 8px;
-    flex-shrink: 0;
-    flex-direction: column;
-    width: 350px;
+    max-width: 300px;
+    flex: 1;
+}
+
+.box img {
+    width: 300px;
 }
 
 /*Below is the third section*/
@@ -149,9 +152,10 @@ h3 {
     background-color: #3882f6;
     color: white;
     border-radius: 8px;
-    border-radius: 8px;
-    padding: 40px 100px;
+    padding: 40px 75px;
+    flex-wrap: wrap;
     flex: 1;
+    gap: 2em;
 }
 
 .action-text {
@@ -173,7 +177,7 @@ h3 {
     padding: 8px 28px;
     font-weight: 700;
     font-size: 20px;
-    transition-duration: 0.4s
+    transition-duration: 0.4s;
 }
 
 .action-container-right button:hover {
